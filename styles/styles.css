@@ -1141,6 +1141,34 @@ table #olive img {
     object-fit: cover;
 }
 
+#ticketBtn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #15ff00;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+  }
+  
+  #ticketBtn:hover {
+    background-color: #18b30a;
+  }
+  
+  #ticketBtn:focus {
+    outline: none;
+  }
+  
+  #ticketBtn {
+    width: 250px; 
+    margin: 0 auto;
+  }
+
 .hatch-cont{
     width: 100%;
     justify-content: space-around;
